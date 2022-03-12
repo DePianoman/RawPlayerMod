@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "rawplayermod:raw_player"
+    },
+    "title": "Raw Player",
+    "description": "Oh the horror!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/stone.png"
+  },
+  "criteria": {
+    "rawplayer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rawplayermod:raw_player"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rawplayer"
+    ]
+  ]
+}

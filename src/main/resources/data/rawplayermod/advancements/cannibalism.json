@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "rawplayermod:cooked_player"
+    },
+    "title": "Cannibalism",
+    "description": "Get some fava beans and a nice chianti!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "rawplayermod:raw_player_tab",
+  "criteria": {
+    "cookedplayer": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "rawplayermod:cooked_player"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cookedplayer"
+    ]
+  ]
+}

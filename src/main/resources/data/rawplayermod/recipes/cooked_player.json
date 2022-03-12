@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rawplayermod:raw_player"
+  },
+  "result": "rawplayermod:cooked_player",
+  "experience": 0.35,
+  "cookingtime": 200
+}
